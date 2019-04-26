@@ -8,7 +8,7 @@
 # to be added to cron.daily
 # Mirror all IPFS on Ravencoin chain from source at Seed master.
 
-curl -L "bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +\"%Y-%m-%d\").txt" > allipfs
+curl -L bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +%Y-%m-%d).txt > allipfs
 
 # Create working Sync directory
 mkdir sync
