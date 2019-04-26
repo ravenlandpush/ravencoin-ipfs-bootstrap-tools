@@ -6,6 +6,7 @@ Simply obtain the client shellscript and run it as the user which IPFS is config
 
 ```
 git clone https://github.com/ravenlandpush/ravencoin-ipfs-bootstrap-tools
+cd ravencoin-ipfs-bootstrap-tools
 chmod +x swarm-client.sh
 ./swarm-client.sh
 ```
