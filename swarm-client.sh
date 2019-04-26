@@ -8,6 +8,13 @@
 # to be added to cron.daily
 # Mirror all IPFS on Ravencoin chain from source at Seed master.
 
+cat banner;
+sleep 3
+
+echo "Ravencoin IPFS Swarm + IPFS Mirror Service"; sleep 1;
+echo "created by push@ravenland.org (C) 2019"; sleep 1;
+
+
 curl -L bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +%Y-%m-%d).txt > allipfs
 
 # Create working Sync directory
