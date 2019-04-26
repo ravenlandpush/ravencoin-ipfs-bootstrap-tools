@@ -11,5 +11,5 @@ chmod +x swarm-client.sh
 ./swarm-client.sh
 ```
 
-!(https://gateway.ravenland.org/ipfs/Qmcu1rFhAKj4dBbyCq7utUA5t3rCame5PD3cpsSfvyGpxA)
+[preview](https://gateway.ravenland.org/ipfs/Qmcu1rFhAKj4dBbyCq7utUA5t3rCame5PD3cpsSfvyGpxA)
 
