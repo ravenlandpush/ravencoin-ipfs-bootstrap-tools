@@ -11,10 +11,6 @@
 # only works for dirs
 #curl -L http://bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +%Y-%m-%d).txt | xargs -i ipfs pin add -r {}
 
-
-/home/ipfs/publish-ipfs-hashes-to-www.sh
-
-
 finish() {
 killall swarm-client-lightweight.sh
 }
@@ -28,7 +24,7 @@ echo "created by push@ravenland.org (C) 2019"; sleep 1;
 
 
 
-curl -L http://bootstrap.ravenland.org/ravencoin_chain_only_$(date +%Y-%m-%d).txt > allipfs
+curl -L http://bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +%Y-%m-%d).txt > allipfs
 mkdir sync;
 cd sync;
 while read -r hash; do
