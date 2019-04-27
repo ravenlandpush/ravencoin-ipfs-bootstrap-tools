@@ -7,4 +7,4 @@
 
 # Use this script if you want the Ravencoin objects on IPFS but don't want to join the Ravenland Ravencoin swarm
 
-curl -L https://bootstrap.ravenland.org/ravencoin_ipfs_list_25_04_2019.txt | xargs -i ipfs pin add -r {}
+curl -L http://bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +%Y-%m-%d).txt | xargs -i ipfs pin add -r {}
