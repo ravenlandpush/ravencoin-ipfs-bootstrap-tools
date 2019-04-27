@@ -12,7 +12,7 @@
 #curl -L http://bootstrap.ravenland.org/ravencoin_ipfs_list_$(date +%Y-%m-%d).txt | xargs -i ipfs pin add -r {}
 
 finish() {
-killall swarm-client-lightweight.sh
+killall sync_all_and_related_ipfs_hashes.sh
 }
 trap finish EXIT
 cd /home/ipfs/ravencoin-ipfs-bootstrap-tools
