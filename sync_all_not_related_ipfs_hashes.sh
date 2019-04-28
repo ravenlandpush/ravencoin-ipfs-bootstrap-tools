@@ -28,12 +28,12 @@ while read -r hash; do
 
 
 #validate hash isnt present already before downloading
-is_valid=$(ipfs pin ls | grep $hash);
+is_valid=$(ipfs pin ls --type=recursive | grep $hash);
 echo "checking if $hash already present.."
 if [ -z "$is_valid" ]
 then
 # could use just curl -L and pipe to | ipfs add stdin
-wget -c https://gateway.ravenland.org/ipfs/$hash
+wget -c -t 1 -T 60 https://gateway.ravenland.org/ipfs/$hash
 ipfs add $hash
 else
 echo "We have this file already pinned. Skipping..."
