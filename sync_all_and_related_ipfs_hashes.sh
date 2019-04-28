@@ -31,7 +31,7 @@ while read -r hash; do
 
 
 #validate hash isnt present already before downloading
-is_valid=$(ipfs pin ls | grep $hash);
+is_valid=$(ipfs pin ls --type=recursive | grep $hash);
 echo "checking if $hash already present.."
 if [ -z "$is_valid" ]
 then
