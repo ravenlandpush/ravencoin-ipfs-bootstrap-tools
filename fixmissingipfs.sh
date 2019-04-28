@@ -11,7 +11,7 @@ echo "Fix missing IPFS Hunter for Ravencoin by push@ravenland.org"; sleep 2;
 echo "Hunting for Lost or missing IPFS Hashes..."; sleep 1
 ls -altr | grep "root          0"
 
-# this kinda hacky our asset explorer is a bit more elegant but not as efficient
+# this kinda hacky our asset explorer is a bit more elegant but not as efficient at resuming missing files
 ls -altr  | awk '{print $9}' | xargs -i wget -c -T 5 -t 2 https://gateway.ravenland.org/ipfs/{}
 ls -altr  | awk '{print $9}' | xargs -i wget -c -T 5 -t 2 https://cloudflare-ipfs.com/ipfs/{}
 ls -altr  | awk '{print $9}' | xargs -i wget -c -T 5 -t 2 https://ipfs.infura.io/ipfs/{}
