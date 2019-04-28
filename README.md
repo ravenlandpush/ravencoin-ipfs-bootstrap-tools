@@ -28,3 +28,6 @@ ipfs bootstrap add /ip4/91.134.145.4/tcp/4001/ipfs/QmdgR69oTuHDoUjRrhYSiz5cpkXCj
 
 ![preview](https://gateway.ravenland.org/ipfs/Qmcu1rFhAKj4dBbyCq7utUA5t3rCame5PD3cpsSfvyGpxA)
 
+# Example screenshot + custom layout for RavencoinOS Swarm Client, IPFS Mirror and Raven Full node 
+
+![preview](https://cdn.discordapp.com/attachments/509938075816689681/571752300918603796/unknown.png)
