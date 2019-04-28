@@ -1,9 +1,8 @@
 # Ravencoin IPFS Swarm Tools
 Ravencoin Bootstrap Tools for IPFS Object Mirroring and Swarm are simple. This is a Ravenland public beta (see https://www.ravenland.org  and https://www.ravencoinos.org for more).
 
-# Example screenshot + custom layout for RavencoinOS Swarm Client, IPFS Mirror and Raven Full node 
-
 ![preview](https://cdn.discordapp.com/attachments/509938075816689681/571752300918603796/unknown.png)
+**Example screenshot + custom layout for RavencoinOS Swarm Client, IPFS Mirror and Raven Full node**
 
 # Swarm is now live!
 The master Ravenland server is now ready for your peers to report to. Understand that adding yourself to the master swarm, protects the Ravencoin network, and replicates the important IPFS backed meta data which is empowering the linked Ravencoin network.
