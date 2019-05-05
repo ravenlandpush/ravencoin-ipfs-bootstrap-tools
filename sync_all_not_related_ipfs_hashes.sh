@@ -1,7 +1,9 @@
 #!/bin/bash
-# Major revision.
+# Author: Push at ravenland.org
+# Title: Sync all Ravencoin IPFS objects on the chain only.
+
 # Description: This will synchronise all ravencoin IPFS objects with your IPFS node.
-# This script expects to run as 'ipfs' user, but modifications have been made where it should run as any user.
+# This script previously expected to run as 'ipfs' user, but modifications have been made where it should run as any user.
 
 #Sync all Ravencoin objects up to April 2019 for IPFS node;
 # deprecating
