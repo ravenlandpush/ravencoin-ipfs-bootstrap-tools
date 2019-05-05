@@ -33,8 +33,8 @@ echo "checking if $hash already present.."
 if [ -z "$is_valid" ]
 then
 # could use just curl -L and pipe to | ipfs add stdin
-wget -c -t 1 -T 60 https://gateway.ravenland.org/ipfs/$hash
-ipfs add $hash
+wget -c -t 1 -T 60 "https://gateway.ravenland.org/ipfs/$hash"
+ipfs add "$hash"
 else
 echo "We have this file already pinned. Skipping..."
 #deletes file  on disk if already pinned, runs each start so eventually will empty
