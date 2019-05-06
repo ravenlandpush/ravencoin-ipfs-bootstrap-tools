@@ -5,7 +5,6 @@
 # deprecating
 #wget -c https://bootstrap.ravenland.org/ipfs.tar; tar -xvf ipfs.tar;cd ipfs; for i in $(ls); do ipfs add "$i"; done;
 
-
 finish() {
 killall simple-sync-all.sh
 }
@@ -21,6 +20,7 @@ echo "created by push@ravenland.org (C) 2019"; sleep 1;
 curl -L http://bootstrap.ravenland.org/ravencoin_chain_only_$(date +%Y-%m-%d).txt > allipfs
 mkdir sync;
 cd sync;
+rm ../new_missing_hashes.txt
 while read -r hash; do
 
 
@@ -31,6 +31,7 @@ if [ -z "$is_valid" ]
 then
 echo "adding $hash to IPFS Mirror store"
 ipfs pin add "$hash" &
+echo "$hash missing..." >> ../new_missing_hashes.txt
 else
 echo "We have this file already pinned. Skipping..."
 fi
