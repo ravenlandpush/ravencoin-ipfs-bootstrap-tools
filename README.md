@@ -1,4 +1,4 @@
-# Ravencoin IPFS Swarm Tools
+# Ravencoin IPFS Mirror + Swarm Tools
 Ravencoin Bootstrap Tools for IPFS Object Mirroring and Swarm are simple. This is a Ravenland public beta (see https://www.ravenland.org  and https://www.ravencoinos.org for more).
 
 ![preview](https://cdn.discordapp.com/attachments/509938075816689681/571752300918603796/unknown.png)
