@@ -31,7 +31,8 @@ ipfs bootstrap add /ip4/91.134.145.4/tcp/4001/ipfs/QmdgR69oTuHDoUjRrhYSiz5cpkXCj
 
 ![preview](https://gateway.ravenland.org/ipfs/Qmcu1rFhAKj4dBbyCq7utUA5t3rCame5PD3cpsSfvyGpxA)
 
-A project supported by https://www.ravenland.org
+
 ![Ravenland](https://ravenland.org/img/ravenland_text_logo.c117b9bb.png)
+A project supported by https://www.ravenland.org
 
 
